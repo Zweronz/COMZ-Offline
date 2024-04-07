@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: weapon_gold_hit_03
+  m_Shader: {fileID: 4800000, guid: ee13600387299704b849dda662b98778, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: d76c97d1b0ad10348a60b1ad0b6c5abf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 1}
+    m_Floats:
+    - first:
+        name: _Offset
+      second: 1
+    - first:
+        name: _AlphaValue
+      second: -0.0014925387
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.7910448, g: 0.71178347, b: 0.22432613, a: 1}
+    - first:
+        name: _ColorS
+      second: {r: 0.3134328, g: 0.3134328, b: 0.3134328, a: 1}

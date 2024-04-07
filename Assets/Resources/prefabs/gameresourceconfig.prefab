@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1430735940163988}
+  m_IsPrefabParent: 1
+--- !u!1 &1430735940163988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4781165799847240}
+  - component: {fileID: 114149799920739754}
+  - component: {fileID: 82390135387711503}
+  m_Layer: 0
+  m_Name: gameresourceconfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4781165799847240
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1430735940163988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.1719546, y: -0.102394104, z: -21.109367}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82390135387711503
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1430735940163988}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114149799920739754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1430735940163988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4482cc2d67c2b40b831973c5a9b983, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitBlood: {fileID: 1275895789165973, guid: 840479a265722024fac6dfffb7d58c7a, type: 2}
+  deadBlood: {fileID: 1153850030943217, guid: 3820ab5d8c7df8c4b8e8fe537a92e5ba, type: 2}
+  deadFoorblood: {fileID: 1802681526214173, guid: ec149d5538061a841866506932f08c54,
+    type: 2}
+  deadFoorblood2: {fileID: 1008000606108091, guid: 1d6df6ec3d006be43894de8729ac5919,
+    type: 2}
+  hitparticles: {fileID: 1655126242167173, guid: d49d0510afa61d14d9f1a2b50dabbff8,
+    type: 2}
+  projectile: {fileID: 1763324690725705, guid: 845339adc93c12c4bbccb54ebc8aa5da, type: 2}
+  isnipertile: {fileID: 1282073022922768, guid: cdf1807442f233c489339eb63b592094,
+    type: 2}
+  m32tile: {fileID: 1146666002286013, guid: 5cf71b8404c2c6749be68c4605dbc586, type: 2}
+  rocketExlposion: {fileID: 1968979541722475, guid: 6b2e8bf042ea39c40aacab3e9f087447,
+    type: 2}
+  boomerExplosion: {fileID: 1944907778664598, guid: f1168ab1cb1f98b41872d60eaddb3718,
+    type: 2}
+  shotgunfire: {fileID: 1231010855584190, guid: 5c25376e935f5444f8d589193715ff43,
+    type: 2}
+  rpgFloor: {fileID: 1183279430471551, guid: e0aab6acfdbf40649be53e9e3677d41a, type: 2}
+  rpgFloor_Playground: {fileID: 1468084056078383, guid: 844205f8c988dfd45879ede8865e1c52,
+    type: 2}
+  laser: {fileID: 1979031284577998, guid: c05c7dbe930d2af48bf4a0b335fa6bba, type: 2}
+  laserHit: {fileID: 1329563553523609, guid: 3a28e5593a5219a4c9c7ab43daadc1da, type: 2}
+  fireline: {fileID: 1900188480778741, guid: 713503419ffbee94895decfe84f58430, type: 2}
+  bullets: {fileID: 1474003346437121, guid: 2c21e08baf2821e4ab4defac75efb59f, type: 2}
+  shotgunBullet: {fileID: 1044836330539048, guid: dc3717f1ee3d4f3429e05fd8bb47ed90,
+    type: 2}
+  nurseSaliva: {fileID: 1707588009156154, guid: 54956ab5ab6d5f7428876e7d6ffaaa82,
+    type: 2}
+  nurseSalivaProjectile: {fileID: 1621028460485253, guid: e8c1de582f5b04240acfe636b72ba4a5,
+    type: 2}
+  salivaExplosion: {fileID: 1121268653237947, guid: 6460d3592fcd7564eb328e7ce8f8ecbd,
+    type: 2}
+  diloVenom: {fileID: 1892799676144605, guid: 131feadbdf3f27c4f8f865fabfb2f2e8, type: 2}
+  diloVenomProjectile: {fileID: 1959201776544238, guid: cdce6968b3c0cd347b7ec57d4efa8f6b,
+    type: 2}
+  diloVenomExplosion: {fileID: 1455454134403426, guid: 25b7fdc6f9517394f8d5878dd7114285,
+    type: 2}
+  diloVenomHitFloor: {fileID: 1845189923008148, guid: a51b2bb5a743e8243b462e3cece32394,
+    type: 2}
+  superDinoRushEffect: {fileID: 1942665886189687, guid: 7d0859422c41daf4fa24f08b91245a26,
+    type: 2}
+  woodExplode: {fileID: 1356305696149384, guid: 06a9718ad9847ab479f72bc8ee811f0a,
+    type: 2}
+  copBomb: {fileID: 1699539894658506, guid: dd5f18fbc7f462a4789f473c02f3534a, type: 2}
+  graveRock: {fileID: 1486715928553742, guid: c92133e2e8d15f94ebee404f256886a7, type: 2}
+  powerEffect: {fileID: 1265302171307150, guid: ffb98b5b46316274599705621d4da4a5,
+    type: 2}
+  superHens: {fileID: 1453434437228285, guid: 5346b979fdb495e46ba3e491b40f0552, type: 2}
+  swordAttack: {fileID: 1338512727240061, guid: 19d70f0556c88124984828d818999133,
+    type: 2}
+  pixelDead: {fileID: 1764797185232781, guid: e92d03b169c55614d9139281b1b537d6, type: 2}
+  pixelExplosion: {fileID: 1522278406197537, guid: ce26174b9d79e184383c1338049d738f,
+    type: 2}
+  electricGunBullet: {fileID: 1959568579840446, guid: d5fae626d2cd1a5419c949e52c0c9374,
+    type: 2}
+  electricGunExplosion: {fileID: 1605607189535360, guid: c56a71ab85aae9a4bb76cdbc863ddfa0,
+    type: 2}
+  airGunBullet: {fileID: 1421285561176480, guid: d44a06b57dff4cf4a9897b45a010f9d7,
+    type: 2}
+  airGunExplosion: {fileID: 1214874888179711, guid: 436a7e4aa1c54684c93cd6f1eb053cc8,
+    type: 2}
+  pixelAirGunBullet: {fileID: 1448939816433828, guid: 9863fe9979e2fbe4eb71cb4881731a88,
+    type: 2}
+  pixelAirGunExplosion: {fileID: 1029642114819816, guid: 30fabb6d55683aa439243b8ab5e458cf,
+    type: 2}
+  longinusGoldBullet: {fileID: 1932528480191162, guid: fc757acacc1ba1e48841b9fc9f40aee4,
+    type: 2}
+  longinusGoldExplosion: {fileID: 1204196842682259, guid: 45c94ccce4963d745b15f7d6314e34cf,
+    type: 2}
+  longinusSilverBullet: {fileID: 1007286997974934, guid: 014c75d9bceb7a344955d9285717ce75,
+    type: 2}
+  longinusSilverExplosion: {fileID: 1588959918451421, guid: ea848ad8a62c2444cbb888fb5eb84689,
+    type: 2}
+  pixelRpgBullet: {fileID: 1516168194354868, guid: e5cddc8cc5fdbbe44828ca0ff7171f8e,
+    type: 2}
+  pixelRpgExplosion: {fileID: 1614154816419768, guid: 16f14e4f6e6ac54479771e5af28ddc0c,
+    type: 2}
+  crossbowBullet: {fileID: 1108774473560159, guid: 0595756da5272724294c08342bd4358e,
+    type: 2}
+  crossbowHit: {fileID: 1623099900230262, guid: f46e265473e5c6543ba9f20e95c5acc1,
+    type: 2}
+  crossbowExplosion: {fileID: 1502017413482070, guid: a439549995b15664fbaf74f5fabb1274,
+    type: 2}
+  crossbowRedpoint: {fileID: 1818194859068196, guid: 58b0ebebb12b1fb49884f50788188088,
+    type: 2}
+  suicideGunSpark: {fileID: 1447048073928128, guid: c23e67391e2f27b42b80fc15c34e4c34,
+    type: 2}
+  suicideGunBullet: {fileID: 1749167998023313, guid: af0a2f4a26de57241a9376f460423ce7,
+    type: 2}
+  suicideGunSmallBullet: {fileID: 1248938105053142, guid: 6edc5e1f5f521a24cb472234046633db,
+    type: 2}
+  suicideGunExplosion: {fileID: 1557046531440510, guid: c8685973a17597f42a1519076013ee45,
+    type: 2}
+  itemHP: {fileID: 1963656639702618, guid: 88bb4ce939fb7d64b913e9bba5ec821d, type: 2}
+  itemPower: {fileID: 1289353637901666, guid: dc1f39767c241bd43a36583283ed0744, type: 2}
+  itemGold: {fileID: 1449845383518879, guid: a47d138d2809f2b49b5fe1f2d13b2ace, type: 2}
+  itemGold_Big: {fileID: 1867137458426178, guid: 9cccf1473280c59478083e5db29c18ef,
+    type: 2}
+  itemStealth: {fileID: 1939207410929521, guid: ea34aac861e517f4ea05bf96ca822e03,
+    type: 2}
+  itemSuper: {fileID: 1550000077146729, guid: ff2be99b2e60cb0448d7f7ccb5551021, type: 2}
+  itemShield: {fileID: 1802154408975466, guid: a1328b57ce4f69a45ba1b56b242b3674, type: 2}
+  itemAssaultGun: {fileID: 1843260957721042, guid: 5fe5acac99ba68143a3cd7c2d8635ab6,
+    type: 2}
+  itemShotGun: {fileID: 1496946600957154, guid: 49024f3de5e7d51439bd79240961302d,
+    type: 2}
+  itemRocketLauncer: {fileID: 1455357218559940, guid: 1f5e758845382594f88e7c4a52eda8b7,
+    type: 2}
+  itemGatlin: {fileID: 1399193793828813, guid: d87ebc0844323a741b37e1b624fac516, type: 2}
+  itemLaser: {fileID: 1915046326086443, guid: 7a2029a0e6bcf6b478c6c899483b656c, type: 2}
+  itemMissle: {fileID: 1651224060878957, guid: 26a2fe6bcb8492f4ea76f7a90a9ff1ba, type: 2}
+  itemM32: {fileID: 1434080898990947, guid: bf0b3abf415fac642a0f36572838d640, type: 2}
+  itemFire: {fileID: 1318694587138980, guid: 4ff19989ad4b5ff43b7ba41004b5c6a2, type: 2}
+  itemElectricGun: {fileID: 1690674380792804, guid: 9693c1db5e31fa146af38adde0fb867e,
+    type: 2}
+  itemCrossbow: {fileID: 1354906075155810, guid: 5089494c9086edd49b2b7c5239b202ae,
+    type: 2}
+  itemSuicideGun: {fileID: 1983163905987428, guid: 7f75a78565eb53f48a64a6725e9e9745,
+    type: 2}
+  itemSmallHpEffect: {fileID: 1228055928147498, guid: 18ac8feac4edc914cac68cde63afbda8,
+    type: 2}
+  itemBigHpEffect: {fileID: 1811778173551005, guid: 3391da17074302943845ba2ea866ca13,
+    type: 2}
+  itemMedpackEffect: {fileID: 1346963719856249, guid: 811f0168a48443843aaaf4a23913f755,
+    type: 2}
+  itemFullReviveEffect: {fileID: 1610775986493511, guid: f1d10319f98dcc54c980366e03cfcaf4,
+    type: 2}
+  AvatarLevelUpEffect: {fileID: 1119590892975513, guid: e4d597d58cceef948b0574636f3452e9,
+    type: 2}
+  shieldLogo: {fileID: 1240634227037189, guid: 0647643c6e10f944294c527923a3fa22, type: 2}
+  crown: {fileID: 1320239030095787, guid: 9233b523b77b4f34588fe022bacb56ae, type: 2}
+  PreyTip: {fileID: 1468895824936798, guid: b070ce8f197bfdc4db7a9b8cfd692dc8, type: 2}
+  mucilage_M: {fileID: 1529030781501133, guid: 581d230fab5dbb34aaee2367f222819f, type: 2}
+  foot_print: {fileID: 1977737387142224, guid: 6e462db7f949b744a94606674cea459f, type: 2}
+  snow_explosion_eff: {fileID: 1988460404349490, guid: 9e7cf3abc6bac6840aa2ffc827361223,
+    type: 2}
+  modelEdge_alpha: {fileID: 4800000, guid: 118ea008f51a53f4d94b1513384afff0, type: 3}
